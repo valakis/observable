@@ -62,7 +62,8 @@ abstract class ObservableList<E> implements List<E>, Observable {
     List<T> previous,
     List<T> current,
   ) {
-    return const ListDiffer<T>().diff(previous, current);
+//    return const ListDiffer<T>().diff(previous, current);
+  return null;
   }
 
   /// Creates an observable list of the given [length].
